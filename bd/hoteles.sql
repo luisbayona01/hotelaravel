@@ -215,7 +215,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `nombres` varchar(45) DEFAULT NULL,
   `apellidos` varchar(45) DEFAULT NULL,
   `email` varchar(45) DEFAULT NULL,
-  `identificacion` int(11) DEFAULT NULL,
+  `identificacion` varchar(45) DEFAULT NULL,
   `paswoord` varchar(45) DEFAULT NULL,
   `tipousuario` int(11) DEFAULT NULL,
   PRIMARY KEY (`idusuarios`),
