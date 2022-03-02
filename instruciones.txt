@@ -1,0 +1,18 @@
+*clonar el repositorio en su carpeta www o  htdocs
+*entrar en la carpeta  hotelaravel
+cd hotelaravel
+*despues  entrar  ala   carpeta apihotel
+cd  apihotel
+* despues  ejecutar   el comando  
+ composer install
+*una vez termine ejecutar estos  comandos
+cp .env.example .env
+php artisan key:generate
+
+*despues dentro de la carpeta  hotelaravel  buscar la carpeta  db  entrar al phpmyadmin 
+ y cargar la bd  
+seguido de  esto 
+
+ir ala carpeta  apihotel 
+
+y cambiamos los paramteros del archivo env 
